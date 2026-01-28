@@ -270,13 +270,28 @@ If you want a starting set of reference PDFs to place in `clinical_pdfs/`, you c
 
 ## Citation
 
-If you use CGRASP in your research, please cite:
+If you use CGRASP in your research, please cite our paper:
+
+- Cheng Lin Cheng, Ting Chuan Lin, Chai Kai Chang, **"C-GRASP: Clinically-Grounded Reasoning for Affective Signal Processing"**, arXiv:2601.10342, 2026.  
+  Link: https://arxiv.org/abs/2601.10342
+
+```bibtex
+@article{cheng2026cgrasp,
+  title   = {C-GRASP: Clinically-Grounded Reasoning for Affective Signal Processing},
+  author  = {Cheng, Cheng Lin and Lin, Ting Chuan and Chang, Chai Kai},
+  journal = {arXiv preprint arXiv:2601.10342},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2601.10342}
+}
+```
+
+If you reference the codebase specifically, you may also cite:
 
 ```bibtex
 @software{cgrasp2024,
   title = {CGRASP: Clinical Grade RAG System for Psychophysiology},
-  year = {2024},
-  url = {https://github.com/YOUR_USERNAME/CGRASP}
+  year  = {2024},
+  url   = {https://github.com/YOUR_USERNAME/CGRASP}
 }
 ```
 
