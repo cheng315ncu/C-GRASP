@@ -1,0 +1,61 @@
+# =============================================================================
+# CGRASP - Clinical Grade RAG System for Psychophysiology
+# Requirements
+# =============================================================================
+
+# Core ML & Deep Learning
+torch>=2.0.0
+transformers>=4.40.0
+sentence-transformers>=2.2.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0  # For 4-bit quantization (optional)
+
+# Data Processing
+polars>=0.20.0
+pandas>=2.0.0
+numpy>=1.24.0
+pillow>=10.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Signal Processing & HRV Analysis
+neurokit2>=0.2.0  # For ECG processing and HRV analysis
+scikit-learn>=1.2.0  # For StandardScaler in preprocessing
+
+# Evaluation & Plotting (for model_evaluation.py)
+seaborn>=0.13.0
+
+# RAG & Vector Database
+chromadb>=0.4.0
+langchain>=0.1.0
+langchain-chroma>=0.1.0
+langchain-community>=0.0.20
+langchain-huggingface>=0.0.1
+
+# PDF Processing
+pypdf>=3.0.0
+unstructured>=0.10.0
+
+# NLP & Text Processing
+spacy>=3.5.0
+rank-bm25>=0.2.2
+rouge>=1.0.1
+bs4>=0.0.1
+markdown>=3.4.0
+
+# Utilities
+tqdm>=4.65.0
+dacite>=1.8.0
+jsonlines>=3.1.0
+openpyxl>=3.1.0
+tabulate>=0.9.0
+word2number>=1.1
+pyyaml>=6.0
+
+# API Clients (optional, for cloud LLM backends)
+openai>=1.0.0
+
+# Development (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# ruff>=0.1.0
