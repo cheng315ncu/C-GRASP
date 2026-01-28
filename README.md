@@ -299,3 +299,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## Acknowledgments
+This project is built upon [PIKE-RAG](https://github.com/microsoft/PIKE-RAG) 
+developed by Microsoft Research, licensed under MIT License.
