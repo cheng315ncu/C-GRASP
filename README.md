@@ -231,8 +231,8 @@ CGRASP/
 |-------|---------------|-------|
 | `Qwen/Qwen3-VL-4B-Instruct` | ~8GB | Fast, good for testing |
 | `Qwen/Qwen3-VL-8B-Instruct` | ~16GB | Recommended balance |
-| `google/medgemma-4b-it` | ~8GB | Medical-specialized |
-| `Cannae-AI/MedicalQwen3-Reasoning-14B-IT` | ~28GB | Best quality, slower |
+| `google/medgemma1.5-4b-it` | ~8GB | Medical-specialized |
+| `google/medgemma-thinking` | ~28GB | Best quality, slower |
 
 For limited VRAM, enable 4-bit quantization:
 ```python
